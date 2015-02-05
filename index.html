@@ -20,6 +20,9 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
 
+    <!-- Other custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -32,6 +35,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <a href = "http://codeforjc.org/" class = "navbar-brand">CodeForJC</a>
+        <a href = "http://codefornewark.org/" class = "navbar-brand">CodeForNewark</a>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -42,7 +46,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class = "nav navbar-nav navbar-right">
-            <li><a href = "#whatishackathon">What is Hackathon?</a></li>
+            <li><a href = "#whatisdatajam">What is Data Jam?</a></li>
             <!-- <li><a href = "#">Blog</a></li> -->
             <li><a href = "#data">Data</a></li>
             <li><a href = "#challenges">Challenges</a></li>
@@ -71,6 +75,7 @@
       <div class="container">
         <div class="container">
           <div class="row">
+
             <div class="col-md-6">
               <center>
                 <br>
@@ -82,21 +87,22 @@
                 <br><br><br>
                 <p><a class="btn btn-lg btn-success" href="https://pathdatajam.eventbrite.com" role="button">Register Today!</a></p>
               </center>
-              </div>
-            
-<!--               <div class="col-md-2">
-                <center>
-                  <p><a class="btn btn-lg btn-success btn-block" href="https://pathdatajam.eventbrite.com" role="button">Register Today!</a></p>
-                </center>
-              </div>  --> 
-
-              <div class="col-md-2">
-                <center>
-                  <p class="lead"><a href="http://www.codeforamerica.org/events/codeacross-2015/"><img class="image-responsive" src="img/CodeAcross2015_Banner.jpg" alt="CodeAcross2015" height=100></a></p><br>
-                </center>
-              </div> 
-
             </div>
+          
+
+<!--             <div class="col-md-4">
+              <center>
+                <p class="lead"><a href="http://www.codeforamerica.org/events/codeacross-2015/"><img class="image-responsive" src="img/CodeAcross2015_Banner.jpg" alt="CodeAcross2015" height=100></a></p><br>
+              </center>
+            </div>  -->
+
+<!--             <div class="col-md-4">
+              <center>
+                <p class="lead"><a href="http://www.panynj.gov/path/"><img class="image-responsive" src="img/path.jpg" alt="PATH" height=100></a></p><br>
+              </center>
+            </div> -->
+
+          
           </div>
         </div>
       </div>
@@ -106,28 +112,29 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Data</h2>
-          <p>For the PATH Data Jam, all projects are required to make direct use of the data, or reference an insight derived from one of the provided datasets.  We provide the data, but you are welcome to use other sources.</p>
-          <p><a class="btn btn-default" href="#data" role="button">View details &raquo;</a></p>
+          <h2>What is a Data Jam?</h2>
+          <p>It's a day long digital workshop in which computer programmers, graphic designers, interface designers, project managers, community activists, artists and other interested members of the community to collaborate intensively on solving problems focused on specific data.  The outcome produces visualizations, analytics and apps based on this data.
+          </p>
+          <p><a class="btn btn-default" href="#whatisahackathon" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Challenges</h2>
-          <p>We have defined several challenges for you.  But you are welcome to bring your own project or start a new project.</p>
-          <p><a class="btn btn-default" href="#challenges" role="button">View details &raquo;</a></p>
+          <h2>Program</h2>
+          <p>We will start a morning with great speakers from the <a href="http://www.panynj.gov/">Port Authority</a>, <a href="http://www.rpa.org">Regional Plan Association</a> and <a href="http://www.saintpeters.edu/">St Peter's Unversity</a> that will introduce the data and challenges.  Around noon you will join a breakout team of your choice.  We will close the day with presentation of the projects created during the event.</p>
+          <p><a class="btn btn-default" href="#program" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Tools</h2>
-          <p>We have listed tools to help you start with data wrangling.  You are welcome to use any other tools.</p>
-          <p><a class="btn btn-default" href="#tools" role="button">View details &raquo;</a></p>
+          <h2>Data</h2>
+          <p>For the PATH Data Jam, all projects are required to make direct use of the data, or reference an insight derived from one of the provided datasets.  We provide links to PATH turnstile data, NY Waterway ridership data, Trans Hudson ridership data (courtesy of Regional Plan Association), and links to GTFS files, but you are welcome to use other sources.</p>
+          <p><a class="btn btn-default" href="#data" role="button">View details &raquo;</a></p>
         </div>
       </div>
 
 
-      <div class="container" id="whatishackathon">
+      <div class="container" id="whatisdatajam">
         <hr class="featurette-divider">
           <div class="row featurette">
             <div class="col-md-5 pull-left">
-              <a href="#"><img class="featurette-image image-responsive" src="img/Hackathon.jpg" alt="What is a Hackathon" width=80% height=80%></a><br>   
+              <a href="#"><img class="featurette-image image-responsive" src="img/Hackathon.jpg" alt="What is a Hackathon"></a><br>   
             </div>
             <div class="col-md-7">
               <h2 class="featurette-heading">What is a Hackathon?</h2>
@@ -148,7 +155,7 @@
         <hr class="featurette-divider">
           <div class="row featurette">
             <div class="col-md-5 pull-left">
-              <a href="#"><img class="featurette-image image-responsive" src="img/data.jpg" alt="Data" width=80% height=80%></a><br>   
+              <a href="#"><img class="featurette-image image-responsive" src="img/data.jpg" alt="Data"></a><br>   
             </div>
             <div class="col-md-7">
               <h2 class="featurette-heading">Data</h2>
@@ -229,7 +236,7 @@
         <hr class="featurette-divider">
           <div class="row featurette">
             <div class="col-md-5 pull-left">
-              <a href="#"><img class="featurette-image image-responsive" src="img/challenges.jpeg" alt="Tools" width=80% height=80%></a><br>   
+              <a href="#"><img class="featurette-image image-responsive" src="img/challenges.jpeg" alt="Challenges"></a><br>   
             </div>
             <div class="col-md-7">
               <h2 class="featurette-heading">Challenges</h2>
@@ -244,14 +251,110 @@
         <hr class="featurette-divider">
           <div class="row featurette">
             <div class="col-md-5 pull-left">
-              <a href="#"><img class="featurette-image image-responsive" src="img/tools.jpeg" alt="Tools" width=80% height=80%></a><br>   
+              <a href="#"><img class="featurette-image image-responsive" src="img/tools.jpeg" alt="Tools"></a><br>   
             </div>
             <div class="col-md-7">
               <h2 class="featurette-heading">Tools</h2>
-              <p class="lead">Analysis:  <a href="https://www.python.org/">Python</a>, <a herf="http://www.tableau.com/public/">Tableau Public</a>, <a href="http://openrefine.org/">OpenRefine</a>, <a href="http://www.rstudio.com/">R Studio</a></p>
+
+
+
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Category</th>
+                      <th>Link</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Analysis</td>
+                      <td><a href="https://www.python.org/">Python</a></td>
+                      <td>Widely used general-purpose, high-level programming language</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Analysis</td>
+                      <td><a herf="http://www.tableau.com/public/">Tableau Public</a></td>
+                      <td>Tool to explore and visualize data</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Analysis</td>
+                      <td><a href="http://openrefine.org/">OpenRefine</a></td>
+                      <td>For working with messy data: cleaning it and transforming it from one format into another</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Analysis</td>
+                      <td><a href="http://www.rstudio.com/">R Studio</a></td>
+                      <td>Programming language for statistical computing and graphics</td>
+                    </tr>
+
+
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Visualization</td>
+                      <td><a herf="http://www.tableau.com/public/">Tableau Public</a></td>
+                      <td>Is a free service to explore and visualize data</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Visualization</td>
+                      <td><a href="http://d3js.org/">D3.js</a></td>
+                      <td>JavaScript library used to create interactive graphical forms for web browsers</td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Presentation</td>
+                      <td><a href="http://prezi.com/">Prezi</a></td>
+                      <td>Cloud-based presentation software and storytelling tool for presenting ideas</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Presentation</td>
+                      <td><a href="http://www.google.com/docs/about/">Google Slides</a></td>
+                      <td>An online collaborative presentations application that lets you create, edit, and deliver presentations</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Presentation</td>
+                      <td><a href="https://www.apple.com/ios/keynote/">Apple Keynote</a></td>
+                      <td>Makes it simple to create and deliver beautiful presentations on mac</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Presentation</td>
+                      <td><a href="https://office.com/start/default.aspx?WT.mc_id=Office_Products_site">MSFT Office</a></td>
+                      <td>Makes it simple to create and deliver beautiful presentations on MS Windows</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Presentation</td>
+                      <td><a href="http://www.rstudio.com/">R Studio</a></td>
+                      <td>Programming language for statistical computing and graphics</td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Mapping</td>
+                      <td><a href="http://codeforjc.org/Transportation-Hackathon-2014/#tools">See list from 2014 Hackathon</a></td>
+                      <td>List of mapping tools</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+
+   <!--            <p class="lead">Analysis:  <a href="https://www.python.org/">Python</a>, <a herf="http://www.tableau.com/public/">Tableau Public</a>, <a href="http://openrefine.org/">OpenRefine</a>, <a href="http://www.rstudio.com/">R Studio</a></p>
               <p class="lead">Visualization:  <a herf="http://www.tableau.com/public/">Tableau Public</a>, <a href="http://d3js.org/">D3,js</a></p>
               <p class="lead">Presentation:  <a href="http://prezi.com/">Prezi</a>, <a href="http://www.google.com/docs/about/">Google Slides</a>, <a href="https://www.apple.com/ios/keynote/">Apple Keynote</a>, <a href="https://office.com/start/default.aspx?WT.mc_id=Office_Products_site">MSFT Office</a>, <a href="http://www.rstudio.com/">R Studio</a></p>
-              <p class="lead">Mapping:  <a href="http://codeforjc.org/Transportation-Hackathon-2014/#tools">See list from 2014 Hackathon</a></p>
+              <p class="lead">Mapping:  <a href="http://codeforjc.org/Transportation-Hackathon-2014/#tools">See list from 2014 Hackathon</a></p> -->
+
             </div>
           </div>
         </div>
@@ -320,25 +423,28 @@
           <div class="row featurette">
             <center>
               <h2 class="featurette-heading">Sponsors</h2>
+              <div class="container">
+                <center>
+                <div class="row">
+                  <div class="col-md-2 sponsor">
+                    <img class="image-responsive sponsor-image" src="img/openjc.png" alt="OpenJC">
+                  </div>
+                  <div class="col-md-2 sponsor">
+                    <img class="image-responsive sponsor-image" src="img/CodeForNewarkLogo.jpeg" alt="CodeForNewark">
+                  </div>
 
-              <div class="row">
-                <div class="col-md-2">
-                  <img class="image-responsive" src="img/openjc.png" alt="OpenJC" height="50">
+                  <div class="col-md-2 sponsor">
+                    <img class="image-responsive sponsor-image" src="img/StPetersUniversityLogo.jpg" alt="SPU">
+                  </div>
+                  <div class="col-md-2 sponsor">
+                    <img class="image-responsive sponsor-image" src="img/RPA-Logo.png" alt="RPA">
+                  </div>
+                  <div class="col-md-2 sponsor">
+                    <img class="image-responsive sponsor-image" src="img/cfa.png" alt="CFA">
+                  </div>
                 </div>
-                <div class="col-md-2">
-                  <img class="image-responsive" src="img/CodeForNewarkLogo.jpeg" alt="CodeForNewark" height="50">
+                </center>
                 </div>
-
-                <div class="col-md-2">
-                  <img class="image-responsive" src="img/StPetersUniversityLogo.jpg" alt="SPU" height="50">
-                </div>
-                <div class="col-md-2">
-                  <img class="image-responsive" src="img/RPA-Logo.png" alt="RPA" height="50">
-                </div>
-                <div class="col-md-2">
-                  <img class="image-responsive" src="img/cfa.png" alt="CFA" height="50">
-                </div>
-              </div>
             </center>
           </div>
         </div>
