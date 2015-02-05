@@ -4,43 +4,48 @@ body {
   padding-bottom: 20px;
 }
 
-/*.jumbotron p, h1, h2 {
-	color: #5cb85c;
-}*/
 
-/*.jumbotron h1 {
-	color: #FFA700;
-}
-
-.jumbotron h2 {
-	color: #FFA700;
-}
-
+/*.jumbotron h1,
+.jumbotron h2,
 .jumbotron h5 {
 	color: #FFA700;
-}*/
-
-/*.jumbotron h1 {
-	color: #5cb85c;
 }
 
-.jumbotron h2 {
-	color: #5cb85c;
-}
-
+.jumbotron h1,
+.jumbotron h2,
 .jumbotron h5 {
 	color: #5cb85c;
 }*/
 
-.jumbotron h1 {
+/*.jumbotron-caption h1,
+.jumbotron-caption h2,
+.jumbotron-caption h5 {
 	color: #FFFFFF;
+}*/
+
+.jumbotron-caption {
+      background-color: rgba(0,0,0,0.5);
+      position: static;
+      /*max-width: 650px;*/
+      max-width: 650px;
+      padding: 10px 0px 20px 20px;
+      /*margin-top: 200px;*/
+      margin-top: 100px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
 }
 
-.jumbotron h2 {
-	color: #FFFFFF;
-}
+.jumbotron-caption h1,
+.jumbotron-caption h2,
+.jumbotron-caption h5,    
+.jumbotron-caption .lead {
+	margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0,0,0,.4);
+} 
 
-.jumbotron h5 {
-	color: #FFFFFF;
+.jumbotron-caption .btn {
+      margin-top: 10px;
 }
 
