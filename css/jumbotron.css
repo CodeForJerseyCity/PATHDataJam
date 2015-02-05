@@ -1,0 +1,21 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/*.jumbotron p, h1, h2 {
+	color: #5cb85c;
+}*/
+
+.jumbotron h1 {
+	color: #FFA700;
+}
+
+.jumbotron h2 {
+	color: #FFA700;
+}
+
+.jumbotron h5 {
+	color: #FFA700;
+}
