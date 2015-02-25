@@ -21,3 +21,24 @@
 	/*font-weight: 300;*/
 	font-weight: bold;
 }
+
+.award-img {
+	height: 40px;
+}
+
+.team-image {
+	height: 50px;
+}
+
+.team-names {
+/*	color: #c7521b;*/
+}
+
+.award-name {
+
+}
+
+.award-desc {
+	font-style: italic;
+	font-size: 80%;
+}
