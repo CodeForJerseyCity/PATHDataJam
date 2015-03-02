@@ -45,6 +45,7 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
+
         <a href = "http://codeforjc.org/" class = "navbar-brand">CodeForJC</a>
         <a href = "http://codefornewark.org/" class = "navbar-brand">CodeForNewark</a>
         <div class="navbar-header">
@@ -55,6 +56,7 @@
             <span class="icon-bar"></span>
           </button>
         </div>
+
         <div id="navbar" class="navbar-collapse collapse">
           <ul class = "nav navbar-nav navbar-right">
 <!--             <li><a href = "#whatisdatajam">What is Data Jam?</a></li> -->
@@ -72,20 +74,11 @@
             <li><a href = "#tools">Tools</a></li>
             <li><a href = "#program">Program</a></li>
             <li><a href = "#sponsors">Partners</a></li>
-            <li><a href = "#sponsors">Sponsors</a></li>
-<!--             <li class = "dropdown">
-                   
-                    <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
-                    <ul class = "dropdown-menu">
-                            <li><a href = "https://twitter.com/CodeForJC">Twitter</a></li>
-                            <li><a href = "https://www.facebook.com/OpenJC">Facebook</a></li>
-                    </ul>
-           
-            </li> -->
-
-   
-    </ul>
+            <li><a href = "#sponsors">Sponsors</a></li>   
+          </ul>
         </div><!--/.navbar-collapse -->
+
+
       </div>
     </nav>
 
@@ -385,7 +378,8 @@
                     <p class="award-desc">Investigative Journalism through data</p>
                   </center>
                   <p><a class="btn" data-toggle="collapse" data-target="#viewdetails_teamyulia">Project details &raquo;</a></p>
-                  <p class="collapse" id="viewdetails_teamyulia">coming soon...</p>                      
+                  <p class="collapse" id="viewdetails_teamyulia">Correlation between rider exits at Exchange place and NY Waterway ferry usage on weekends, also considering the imapct of inclement weather on rider usage.   Future enhancements include:  (1) include PATH ridership historical data for several years, broken by ride (2) add TAXI data for 2014 (Chris Whong only got 2013 numbers - <a href="http://chriswhong.com/open-data/foiling-nycs-boro-taxi-trip-data">http://chriswhong.com/open-data/foiling-nycs-boro-taxi-trip-data</a>) (3) add MTA data at WFC
+                  (4) add holidays and events, like Thanksgiving</p>                      
                 </div>
               </div>
             </div>
@@ -407,7 +401,12 @@
                     <p class="award-desc">Best use of multiple datasets</p>
                   </center>
                   <p><a class="btn" data-toggle="collapse" data-target="#viewdetails_teamukko">Project details &raquo;</a></p>
-                  <p class="collapse" id="viewdetails_teamukko">coming soon...</p>                      
+                  <p class="collapse" id="viewdetails_teamukko">
+                    The team analyzed correlation between PATH ridership data and inclement weather: How does weather impact PATH utilization?  The turnstile data at 15 minute intervals was aggregated to match the weather underground data source daily information.
+
+                    The team made the following suggestions to further improve the analysis:  (1) To create comprehensive events database with location and time, like when gov't closes trains, etc (2)
+                    PA to publish time series data store for historical alerts and (3) include sentiment analysis from twitter
+                  </p>                      
                 </div>
               </div>
             </div>
@@ -431,7 +430,7 @@
                     <p class="award-desc">Best map visualization</p>
                   </center>
                   <p><a class="btn" data-toggle="collapse" data-target="#viewdetails_teamtrio">Project details &raquo;</a></p>
-                  <p class="collapse" id="viewdetails_teamtrio">coming soon...</p>                      
+                  <p class="collapse" id="viewdetails_teamtrio">Visual simulation of the PATH usage based on station turnstile entrances + exits. Leveraged a priod open data vizualisation project as the foundation for this instance (<a href="http://chriswhong.com/open-data/visualizing-the-mtas-turnstile-data/">http://chriswhong.com/open-data/visualizing-the-mtas-turnstile-data</a>).</p>                      
                 </div>
               </div>
             </div> 
@@ -495,7 +494,7 @@
                     <p class="award-desc">Most impactful to the local community</p>
                   </center>
                   <p><a class="btn" data-toggle="collapse" data-target="#viewdetails_teampathnottaken">Project details &raquo;</a></p>
-                  <p class="collapse" id="viewdetails_teampathnottaken">coming soon...</p>                      
+                  <p class="collapse" id="viewdetails_teampathnottaken">Impact on alternate trasnit methods by passenger redistribution when PATH service is interrupted.  Questions raised:  What is the closest alternative mode of transportation if the PATH train is suspended?  Created heatmap showing am and pm max and average boarding times.  Suggestion was made to create an app that will tell residents the backup plan in case of train outage (both location and time)</p>                      
                 </div>
               </div>
             </div>
@@ -524,7 +523,7 @@
                     <p class="award-desc">Greatest contribution others can use</p>
                   </center>
                   <p><a class="btn" data-toggle="collapse" data-target="#viewdetails_teamquentin">Project details &raquo;</a></p>
-                  <p class="collapse" id="viewdetails_teamquentin">coming soon...</p>                      
+                  <p class="collapse" id="viewdetails_teamquentin">Cleaned the turnstile code, to make it readily available for other teams to use <a href="https://raw.githubusercontent.com/CodeForJerseyCity/PATHDataJam/gh-pages/data/15700-O.csv">(file link).</a></p>                      
                 </div>
               </div>
             </div>
@@ -561,7 +560,11 @@
                     <p class="award-desc">Best insight from the Data</p>
                   </center>
                   <p><a class="btn" data-toggle="collapse" data-target="#viewdetails_teamawesome">Project details &raquo;</a></p>
-                  <p class="collapse" id="viewdetails_teamawesome">coming soon...</p>                      
+                  <p class="collapse" id="viewdetails_teamawesome">Using Tableau, mashed up PATH GTFS and turnstile data to create capacity and impact visualization for the Port Authority.  Discoverd many people aren't accounted for exiting the system, as many passengers are using the handicap exit.  After reaching to PA's Robert Galvin, the team obtained info about PATH train car capacity to be 129 people.  Suggestions on how the proejct can be improved:
+                  (1) Compare to real esate and resulting population growth expecations aroudn Harrison, JSQ and Newark
+                  (2) Test true capacity of PATH train car - is it 129 people max or is it more?
+                  (3) Add alert data/event data to the analysis
+                  (4) Get historical metrocard/smart card data</p>                      
                 </div>
               </div>
             </div>
@@ -580,7 +583,8 @@
       <div class="container" id="gallery">
         <hr class="featurette-divider">
           <div class="row featurette">
-            <div class="col-lg-5 col-md-7 col-sm-2">
+            <div class="col-lg-5 col-md-5 col-sm-2 pull-left">
+<!--               <a href="#"><img class="featurette-image image-responsive" src="img/gallery.jpg" alt="Gallery"></a><br>  -->  
             </div>
             <div class="col-lg-7 col-md-5 col-sm-2">
               <h2 class="featurette-heading">Gallery</h2>
